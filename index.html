@@ -4,14 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Final Hacktiv8</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="main">
-            <img src="" alt="">
-            <span>hijau daun</span>
+    <section>
+        <nav>
+          <div class="toggle">
+            <button onclick="menu_open()" class="tombol tombol-navigasi">Menu</button>
+          </div>
+          <ul style="padding-top: 20px;" id="menu-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="sosmed">
+          <div class="isi-sosmed">
+            <a href="https://github.com/kukuhbaskoro/" target="_blank"><img src="./assets/images/github.png"> </a>
+            <a href="https://api.whatsapp.com/send?phone=6289648338115&text=Assalamualaikum" target="_blank"><img
+                src="./assets/images/wa2.png"></a>
+            <a href="https://www.instagram.com/adamanis2nya/" target="_blank"><img src="./assets/images/ig.png"> </a>
+            <a href="mailto:adam.barbeque@gmail.com" target="_blank"><img src="./assets/images/gmail.png"></a>
+            <a href="https://www.facebook.com/adamanis2nya" target="_blank"><img style="width:38px;"
+                src="./assets/images/fb.png"></a>
+          </div>
         </div>
-    </header>
+        <div class="banner" id="home">
+          <div id="circle3"></div>
+          <div id="circle2"></div>
+          <div id="circle"></div>
+          <div class="title">
+            <h1 class="name">Halo Saya Adam</h1>
+            <p>Junior Fronted End developer, <br>Yoroshiku Onegaishimasu</p>
+          </div>
+        </div>
+        <div id="about">
+          <svg id="curve" viewBox="0 0 1400 214.953" xml:space="preserve">
+                    <path fill="#0099ff" fill-opacity="1" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+                        c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+                        v73.387H0V139.29z"/></svg>
+        </div>
+      </section>
+      <div id="wrapper">
+        <section class="sec2">
+          <div class="content">
+            <div>
+              <h1 class="title-content">About Me</h1>
+              <div class="left-menu">
+                <div class="circle-avatar"></div>
+              </div>
+              <div class="right-menu">
+                <p>
+                  Hai :) <br/>Saya adalah seorang Junior Web Design, Junior Front-End Developer, Freelancer.
+                </p>
+                <p>
+                  Lahir pada bulan Desember tanggal 02 dan tahun 1996, bertempat di Grobogan, Jawa Tengah, Indonesia.
+                </p>
+                <p>
+                  Tinggal dan Lahir di Grobogan, membuat Saya begitu menyukai tantangan & belajar Hal-hal baru terlebih lagi dalam perkembangan Teknologi yang begitu cepat</b>.
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="sec3" id="portfolio">
+        <div class="content content-float">
+          <h1 class="title-content">Portfolio</h1>
+          <div class="area-card">
+            <div class="card">
+              <div class="card-header" style="background:url('assets/images/alo.png') ;background-size : cover;">
+              </div>
+              <div class="card-body">
+                <p style="color:#fff">
+                  <b>Alola Skincare</b>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" style="background:url('assets/images/Artisan.png') ;background-size : cover;">
+              </div>
+              <div class="card-body">
+                <p style="color:#fff">
+                  <b>Artisan Gadget</b>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" style="background:url('assets/images/dk.png') ;background-size : cover;">
+              </div>
+              <div class="card-body">
+                <p style="color:#fff">
+                  <b>DK Celluler</b>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" style="background:url('assets/images/its.png') ;background-size : cover;">
+              </div>
+              <div class="card-body">
+                <p style="color:#fff">
+                  <b>Handayani perabot</b>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+        <svg  id="curve2"
+             viewBox="0 0 1400 214.953"
+           xml:space="preserve">
+        <path fill="#0099ff" fill-opacity="1" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+          c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+          v73.387H0V139.29z"/>
+        </svg>
+      </section>
+      <section class="sec4">
+        <div class="content" id="blog">
+          <h1 class="title-content" style="padding-bottom:15px;">Blog</h1>
+          <p>
+            <ul class="text-experience">
+              <li >
+                <h3>Junior Programmer</h3> <p> dikenal juga sebagai entry level programmer. Sering disebut juga mereka yang baru saja lulus studi pendidikan tinggi dan memiliki pekerjaan pertama sebagai programmer. Tentu, seorang Junior Programmer diharuskan memenuhi job description dan target sesuai industri yang mempekerjakannya. Namun pasti ada standar yang menjadi syarat kompetensi bagi profesi Junior Programmer.</p>
+              </div>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </section>
+    </div>
+    <section id="team">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi" style="color: #ffd523; padding-top: 25px;">Our Great Team</p>
+                    <h2 style="color: #ffd523;">Teams</h2>
+                    <p style="color: #ffd523;">The main task of our great team of this specialization is to understand your vision of the project, analyze it, then translate it into a comprehensive technical specification. In turn, these specifications will be used by the website development team to set the timeframe for the work and preparation of the web design project.</div>
+                <div class="partner-list">
+                    <div class="kartu-partner">
+                        <img src="assets/images/cowo1.jpg"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="assets/images/cowo2.jpg"/>
+                    </div>
+                    <div class="kartu-partner">
+                        <img src="assets/images/cowo3.png"/>
+                    </div>
+            </div>
+        </section>
+    <section id="contact">
+      <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Contact me</h3>
+          <h4>Contact me today, and get reply with in 24 hours!</h4>
+          <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+        </div>
+    </section>
 </body>
 </html>
